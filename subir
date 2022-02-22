@@ -1,0 +1,14 @@
+#!/bin/bash
+$(git config --global credential.helper cache)
+RIGHT_NOW="$(date +"%x %r")"
+#%Z
+cd /home/brayle/Aprendizaje
+if [ "$?" = "0" ]; then
+  git add .
+  read -p "ingrese el comentario: " comentario
+  git commit -am "$comentario $RIGHT_NOW"
+  git push origin
+else
+  echo "fallo la subida" 1>&2
+  exit 1
+fi

@@ -1,0 +1,226 @@
+tema 0 -> Day
+tema 1 -> Week
+tema 2 -> 0x00. Shell, navigation
+tema 3 -> 0x01. Emacs
+tema 4 -> 0x03. Git
+tema 5 -> 0x02. vi
+tema 6 -> 0x04. Professional Technologies
+tema 7 -> 0x00. Shell, basics
+tema 8 -> [Optional] Vagrant
+tema 9 -> 0x01. Shell, permissions
+tema 10 -> Shell - basics, permissions
+tema 11 -> 0x02. Shell, I/O Redirections and filters -
+tema 12 -> Professional Relationships
+tema 13 -> 0x03. Shell, init files, variables and expansions
+tema 14 -> Shell - I/O Redirections and filters, init files, variables and expansions
+tema 15 -> 0x00. C - Hello, World
+tema 16 -> 0x01. C - Variables, if, else, while
+tema 17 -> C - Hello, World &amp; Variables, if, else, while
+tema 18 -> 0x02. C - Functions, nested loops
+tema 19 -> 0x03. C - Debugging
+tema 20 -> C - functions, nested loops
+tema 21 -> 0x04. C - More functions, more nested loops
+tema 22 -> C - more functions, more nested loops &amp; Debugging
+tema 23 -> 0x05. C - Pointers, arrays and strings
+tema 24 -> C - pointers, arrays and strings
+tema 25 -> 0x06. C - More pointers, arrays and strings
+tema 26 -> 0x00 - Shell
+tema 27 -> C - more pointers, arrays and strings
+tema 28 -> 0x07. C - Even more pointers, arrays and strings
+tema 29 -> C - even more pointers, arrays and strings
+tema 30 -> 0x00. #100DaysOfCode
+tema 31 -> 0x08. C - Recursion
+tema 32 -> Student NPS after 1 month
+tema 33 -> C - Recursion
+tema 34 -> 0x09. C - Static libraries
+tema 35 -> 0x0A. C - argc, argv
+tema 36 -> Professional Relationships
+tema 37 -> 0x07. C - Even more pointers, arrays and strings
+tema 38 -> C - even more pointers, arrays and strings
+tema 39 -> 0x00. #100DaysOfCode
+tema 40 -> 0x08. C - Recursion
+tema 41 -> Student NPS after 1 month
+tema 42 -> C - Recursion
+tema 43 -> 0x09. C - Static libraries
+tema 44 -> 0x0A. C - argc, argv
+tema 45 -> Professional Social Presence
+tema 46 -> 0x01 - Shell, C
+tema 47 -> 0x0B. C - malloc, free
+tema 48 -> C - Static libraries &amp; argc, argv &amp; malloc, free
+tema 49 -> 0x0C. C - More malloc, free
+tema 50 -> C - more malloc, free
+tema 51 -> 0x0D. C - Preprocessor
+tema 52 -> 0x0E. C - Structures, typedef
+tema 53 -> C - Preprocessor, structures, typedef
+tema 54 -> 0x00. Math - Complex
+tema 55 -> 0x0F. C - Function pointers
+tema 56 -> 0x10. C - Variadic functions
+tema 57 -> C - Function pointers &amp; Variadic functions
+tema 58 -> 0x11. C - printf
+tema 59 -> C - printf manual review
+tema 60 -> 0x12. C - Singly linked lists
+tema 61 -> C - Singly linked lists
+tema 62 -> 0x13. C - More singly linked lists
+tema 63 -> 0x02 - Shell, C
+tema 64 -> C - More singly linked lists
+tema 65 -> 0x01. Math - Sequence
+tema 66 -> 0x14. C - Bit manipulation
+tema 67 -> C - Bit manipulation
+tema 68 -> 0x01. #100DaysOfCode
+tema 69 -> 0x00. #100DaysOfCode
+tema 70 -> Professional Social Presence
+tema 71 -> 0x13. C - More singly linked lists
+tema 72 -> 0x02 - Shell, C
+tema 73 -> C - More singly linked lists
+tema 74 -> 0x01. Math - Sequence
+tema 75 -> 0x14. C - Bit manipulation
+tema 76 -> C - Bit manipulation
+tema 77 -> 0x01. #100DaysOfCode
+tema 78 -> 0x15. C - File I/O
+tema 79 -> C - File I/O
+tema 80 -> 0x03 - Shell, C
+tema 81 -> Student NPS after 3 months
+tema 82 -> 0x16. C - Simple Shell
+tema 83 -> 0x02. Math - Integrals and ODE
+tema 84 -> Maundy Thursday
+tema 85 -> Good Friday
+tema 86 -> C - Simple Shell - Manual review
+tema 87 -> C - Simple Shell
+tema 88 -> Break #0
+tema 89 -> Labour Day
+tema 90 -> 0x02. #100DaysOfCode
+tema 91 -> 0x00. Python - Hello, World
+tema 92 -> 0x01. Python - if/else, loops, functions
+tema 93 -> Python - Hello, World &amp; if/else, loops, functions
+tema 94 -> 0x02. Python - import &amp; modules
+tema 95 -> 0x04 - Shell, C
+tema 96 -> Raise the terrain
+tema 97 -> 0x03. Python - Data Structures: Lists, Tuples
+tema 98 -> Python - import &amp; modules &amp; data Structures: Lists, Tuples
+tema 99 -> 0x04. Python - More Data Structures: Set, Dictionary
+tema 100 -> 0x17. C - Doubly linked lists
+tema 101 -> C - Doubly linked lists &amp; Python - More Data Structures: Set, Dictionary
+tema 102 -> 0x18. C - Dynamic libraries
+tema 103 -> 0x19. C - Stacks, Queues - LIFO, FIFO
+tema 104 -> C - Stacks, Queues - LIFO, FIFO &amp; Dynamic libraries
+tema 105 -> 0x05. Python - Exceptions
+tema 106 -> 0x06. Python - Classes and Objects
+tema 107 -> Python - Exceptions &amp; Classes and Objects
+tema 108 -> 0x05 - Shell, C, Python
+tema 109 -> 0x07. Python - Test-driven development
+tema 110 -> 0x08. Python - More Classes and Objects
+tema 111 -> Hodor - cheat online voting contests
+tema 112 -> 0x09. Python - Everything is object
+tema 113 -> Python - Test-driven development &amp; More Classes and Objects &amp; Everything is object
+tema 114 -> 0x03. #100DaysOfCode
+tema 115 -> 0x1A. C - Hash tables
+tema 116 -> 0x02. #100DaysOfCode
+tema 117 -> 0x07. Python - Test-driven development
+tema 118 -> 0x08. Python - More Classes and Objects
+tema 119 -> Hodor - cheat online voting contests
+tema 120 -> 0x09. Python - Everything is object
+tema 121 -> Python - Test-driven development &amp; More Classes and Objects &amp; Everything is object
+tema 122 -> 0x03. #100DaysOfCode
+tema 123 -> 0x1A. C - Hash tables
+tema 124 -> 0x0A. Python - Inheritance
+tema 125 -> 0x0B. Python - Input/Output
+tema 126 -> C - Hash tables &amp; Python - Inheritance &amp; Input/Output
+tema 127 -> 0x0C. Python - Almost a circle
+tema 128 -> Python - Almost a circle
+tema 129 -> 0x06 - Shell, C, Python
+tema 130 -> 0x1B. C - Sorting algorithms &amp; Big O
+tema 131 -> RSA Factoring Challenge
+tema 132 -> 0x00. Share your knowledge - Recursion
+tema 133 -> C - Sorting algorithms &amp; Big O
+tema 134 -> 0x04. Loops, conditions and parsing
+tema 135 -> 0x05. Processes and signals
+tema 136 -> Bash - Loops, conditions, parsing, processes &amp; signals
+tema 137 -> 0x07 - Google interview
+tema 138 -> 0x07. Networking basics #0
+tema 139 -> 0x08. Networking basics #1
+tema 140 -> 0x06. Regular expression
+tema 141 -> Regular expression &amp; Networking basics
+tema 142 -> 0x03. #100DaysOfCode
+tema 143 -> RSA Factoring Challenge
+tema 144 -> 0x00. Share your knowledge - Recursion
+tema 145 -> Bash - Loops, conditions, parsing, processes &amp; signals
+tema 146 -> 0x07 - Google interview
+tema 147 -> 0x07. Networking basics #0
+tema 148 -> 0x08. Networking basics #1
+tema 149 -> 0x06. Regular expression
+tema 150 -> Regular expression &amp; Networking basics
+tema 151 -> 0x00. AirBnB clone - The console
+tema 152 -> AirBnB clone - The console
+tema 153 -> Command line for the win
+tema 154 -> 0x0D. SQL - Introduction
+tema 155 -> 0x0E. SQL - More queries 
+tema 156 -> 0x01. AirBnB clone - Web static
+tema 157 -> SQL - Introduction &amp; more queries ; AirBnB clone - Web static
+tema 158 -> Independence Day
+tema 159 -> 0x1C. C - Makefiles
+tema 160 -> 0x09. Web infrastructure design
+tema 161 -> 0x08 - Lyft interview
+tema 162 -> Student NPS after 6 months
+tema 163 -> 0x1D. C - Binary trees
+tema 164 -> Binary Trees &amp; Makefiles
+tema 165 -> Break #1
+tema 166 -> 0x12. JavaScript - Warm up
+tema 167 -> 0x01. Share your knowledge - IoT
+tema 168 -> 0x13. JavaScript - Objects, Scopes and Closures
+tema 169 -> Javascript - Warm up &amp; Objects, Scopes and Closures
+tema 170 -> 0x0F. Python - Object-relational mapping
+tema 171 -> 0x02. AirBnB clone - MySQL
+tema 172 -> Python - Object-relational mapping &amp; sharing information about AirBnB clone - MySQL
+tema 173 -> 0x00. Fix my code
+tema 174 -> 0x02. AirBnB clone - MySQL
+tema 175 -> 0x0B. SSH
+tema 176 -> 0x0A. Configuration management
+tema 177 -> 0x0D. Web stack debugging #0
+tema 178 -> 0x0C. Web server
+tema 179 -> Configuration management &amp; SSH &amp; Web server &amp; Web stack debugging #0
+tema 180 -> 0x10. Python - Network #0
+tema 181 -> 0x11. Python - Network #1
+tema 182 -> 0x0E. Web stack debugging #1
+tema 183 -> 0x0F. Load balancer
+tema 184 -> Python - Network &amp; Load balancer
+tema 185 -> 0x03. AirBnB clone - Deploy static
+tema 186 -> 0x10. HTTPS SSL
+tema 187 -> AirBnB clone - Deploy static &amp; HTTPS SSL &amp; Web stack debugging #1
+tema 188 -> 0x05. AirBnB clone - RESTful API
+tema 189 -> Research &amp; Project approval (Part 1)
+tema 190 -> 0x01. Fix my code
+tema 191 -> 0x02. Share your knowledge - Specialization
+tema 192 -> AirBnB clone - RESTful API
+tema 193 -> 0x15. JavaScript - Web jQuery
+tema 194 -> 0x06. AirBnB clone - Web dynamic
+tema 195 -> Research &amp; Project approval (Part 2)
+tema 196 -> AirBnB clone - Web dynamic &amp;  Javascript - Web JQuery
+tema 197 -> 0x19. Postmortem
+tema 198 -> 0x17. Web stack debugging #3
+tema 199 -> 0x16. API advanced
+tema 200 -> 0x18. Webstack monitoring
+tema 201 -> API advanced &amp; Webstack monitoring &amp; Web stack debugging #3
+tema 202 -> Hack day: Checker challenge!
+tema 203 -> Research &amp; Project approval (Part 3)
+tema 204 -> 0x1A. Application server
+tema 205 -> 0x1B. Web stack debugging #4
+tema 206 -> 0x0A - Linkedin interview - SRE
+tema 207 -> Student NPS after 9 months
+tema 208 -> Application server &amp; Web stack debugging #4
+tema 209 -> Build your portfolio project (Week 1): Making Progress
+tema 210 -> Portfolio Project Checkin
+tema 211 -> Build your portfolio project (Week 2): MVP Complete
+tema 212 -> MVP review
+tema 213 -> Build your portfolio project (Week 3): Project Landing Page
+tema 214 -> Build your portfolio project (Week 3): Presentation
+tema 215 -> Presentation Practice &amp; Landing Page review
+tema 216 -> Portfolio Project Blog post
+tema 217 -> Cleanup your Portfolio Project
+tema 218 -> Presentation day
+tema 219 -> Build your portfolio project (Week 3): Project Landing Page
+tema 220 -> Build your portfolio project (Week 3): Presentation
+tema 221 -> Presentation Practice &amp; Landing Page review
+tema 222 -> Portfolio Project Blog post
+tema 223 -> Cleanup your Portfolio Project
+tema 224 -> Presentation day
+tema 225 -> Foundations Celebration

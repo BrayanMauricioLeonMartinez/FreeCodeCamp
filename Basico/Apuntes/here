@@ -1,0 +1,185 @@
+#!/bin/bash 
+set -x
+# sysinfo_page - A script to produce an system information HTML file
+
+##### Constants
+
+TITLE="System Information for $HOSTNAME"
+RIGHT_NOW="$(date +"%x %r %Z")"
+TIME_STAMP="Updated on $RIGHT_NOW by $USER"
+
+##### Functions
+
+system_info()
+{
+    # Temporary function stub
+    echo "<h2>System release info</h2>"
+    echo "<p>Function not yet implemented</p>"
+}
+
+
+show_uptime()
+{
+    # Temporary function stub
+    echo "<h2>System uptime</h2>"
+    echo "<pre>"
+    uptime
+    echo "</pre>"
+}
+
+
+drive_space()
+{
+    # Temporary function stub
+    echo "<h2>Filesystem space</h2>"
+    echo "<pre>"
+    df
+    echo "</pre>"
+}
+
+
+home_space()
+{
+    # Temporary function stub
+    echo "<h2>Home directory space by user</h2>"
+    echo "<pre>"
+    echo "Bytes Directory"
+    du -s /home/* | sort -nr
+    echo "</pre>"
+}
+
+
+##### Main
+read -p "ingrese el comentario: " text
+echo "You entered: $text"
+
+read -p "Enter a number between 1 and 3 inclusive > " character
+if [ "$character" = "1" ]; then
+    echo "You entered one."
+elif [ "$character" = "2" ]; then
+    echo "You entered two."
+elif [ "$character" = "3" ]; then
+    echo "You entered three."
+else
+    echo "You did not enter a number between 1 and 3."
+fi
+
+
+read -p "Enter a number between 1 and 3 inclusive > " character
+case $character in
+    1 ) echo "You entered one."
+        ;;
+    2 ) echo "You entered two."
+        ;;
+    3 ) echo "You entered three."
+        ;;
+    * ) echo "You did not enter a number between 1 and 3."
+esac
+
+
+read -p "Type a digit or a letter > " character
+case $character in
+                                # Check for letters
+    [[:lower:]] | [[:upper:]] ) echo "You typed the letter $character"
+                                ;;
+
+                                # Check for digits
+    [0-9] )                     echo "You typed the digit $character"
+                                ;;
+
+                                # Check for anything else
+    * )                         echo "You did not type a letter or a digit"
+esac
+
+
+number=0
+while [ "$number" -lt 10 ]; do
+    echo "Number = $number"
+    number=$((number + 1))
+done
+
+
+
+number=0
+until [ "$number" -ge 10 ]; do
+    echo "Number = $number"
+    number=$((number + 1))
+done
+
+selection=
+until [ "$selection" = "0" ]; do
+    echo "
+    PROGRAM MENU
+    1 - Display free disk space
+    2 - Display free memory
+
+    0 - exit program
+"
+    echo -n "Enter selection: "
+    read selection
+    echo ""
+    case $selection in
+        1 ) df ;;
+        2 ) free ;;
+        0 ) exit ;;
+        * ) echo "Please enter 1, 2, or 0"
+    esac
+done
+
+
+
+press_enter()
+{
+    echo -en "\nPress Enter to continue"
+    read
+    clear
+}
+
+selection=
+until [ "$selection" = "0" ]; do
+    echo "
+    PROGRAM MENU
+    1 - display free disk space
+    2 - display free memory
+
+    0 - exit program
+"
+    echo -n "Enter selection: "
+    read selection
+    echo ""
+    case $selection in
+        1 ) df ; press_enter ;;
+        2 ) free ; press_enter ;;
+        0 ) exit ;;
+        * ) echo "Please enter 1, 2, or 0"; press_enter
+    esac
+done
+
+
+
+
+cat <<- _EOF_
+$(
+
+)
+  <html>
+  <head>
+      <title>$TITLE</title>
+  </head>
+
+  <body>
+      $(if true; then echo "It's true."; fi)
+      $(if [ -f .bash_profile ]; then
+    	echo "You have a .bash_profile. Things are fine."
+      else
+        echo "Yikes! You have no .bash_profile!"
+      fi)
+      <h1>$TITLE</h1>
+      <p>$TIME_STAMP</p>
+      $(system_info)
+      $(show_uptime)
+      $(drive_space)
+      $(home_space)
+  </body>
+  </html>
+_EOF_
