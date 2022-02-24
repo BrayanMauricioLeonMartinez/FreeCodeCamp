@@ -1,0 +1,9 @@
+function factorialize(num) {
+  //var factorIialize;
+  if(num == 0){
+    return 1;
+  }
+  return factorialize(num - 1) * num;
+}
+
+console.log(factorialize(0));
